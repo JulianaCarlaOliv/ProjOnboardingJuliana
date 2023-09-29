@@ -1,100 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Juliana Carla</title> 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            height: 701px;
-        }    
-
-        nav {
-            float: right;                     
-            background: #eebae2;
-            height: 700px;
-            width: 110px; 
-            margin-right: 1px;              
-        }    
-
-        article, section {
-            float: center;   
-        }                             
-        
-        img {                               
-            right: 15%;
-            height: 15%;            
-        }
-
-        div {
-            color: #ee66e0;
-            font-size: x-small;   
-        }     
-        
-        li {
-            text-align: left;
-        }
-
-        hr {
-            width: auto;
-            margin-left: 20px;
-            margin-right: 200px;
-        }
-
-    </style>   
+    <link rel="stylesheet" href="styles.css">
+    <title>Minhas tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
-<body style="border: double">
-    <nav>
-        <img>
-            <img src="assets/imagens/foto.jpg">
-        </img>
-    </nav>   
-    
-    <h1> Juliana Carla de Oliveira </h1>
-    <h4> Programador(a) </h4>
 
-    <div>
-        <img width="10" height="10" src="assets/imagens/telef.png"> Telefone: (31) 99601-7167 &emsp;    
-        <img width="10" height="10" src="assets/imagens/email.png"> Email: julianaconda@gmail.com &emsp; 
-        <img width="10" height="10" src="assets/imagens/casa.png"> Rua: Adão Lucindo, 36 - Vila Aparecida - Nova Lima/MG   
+<body>
+    <div class="colunatarefas">
+        <p class="titulotarefas">Minhas tarefas</p>
+        <input class="campotarefas" maxlength="50" placeholder="Adicionar nova tarefa...">
+        <button class="botaoadictarefas">Adicionar</button>        
+        <ul class="listatarefas"></ul>
+        <button class= "botaoremover"><input type=image src="imagens/lixo.png" width="25" height="25"></button>
     </div>
-
-    <article> 
-        <br>
-        <section>
-            <h2> Objetivo </h2>
-                <ul>          
-                    <li> Criar, projetar e implementar soluções digitais para uma variedade de necessidades e problemas. </li>
-                </ul>
-            <hr>
-
-            <p> <h2> Formação </h2> </p>
-                <ul>  
-                    <li> Bacharel em Ciências da Computação </li>   
-                    <li> Especialista em Linguagem Delphi </li>
-			        <li> Especialista em Informátia </li>			    
-                </ul>          
-            <hr>
-
-            <p> <h2> Experiências </h2> </p>
-                <ul>
-                    <li> Aix </li>
-                    <li> AictiveSoft </li>
-                    <li> Sisloc </li>
-                    <li> Teknisa </li>                
-                </ul>
-            <hr>
-
-            <p> <h2> Habilidades </h2> </p>
-                <ul>
-                    <li> Conhecimento técnico e aprendizado contínuo. </li>
-                    <li> Pensamento criativo. </li>
-                    <li> Proatividade. </li>                
-                    <li> Trabalho em equipe. </li>
-                </ul>
-        <section>
-    </article>
 </body>
+<script src="scripts.js"></script>
+
 </html>
